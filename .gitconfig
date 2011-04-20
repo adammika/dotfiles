@@ -1,1 +1,18 @@
-/Users/adam/.gitconfig
+[user]
+	name = Adam Mika
+	email = mika@digitalcyclone.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log --pretty=oneline --abbrev-commit --graph --decorate
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ls = ls-files
+	log = log
