@@ -2,10 +2,18 @@
 syntax enable
 colorscheme solarized
 set background=dark
-set guifont=Meslo\ LG\ M\ DZ:h13
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L] 
 set laststatus=2
 set guioptions-=T
 set list!
-set listchars=tab:▸\ ,eol:¬
-set nu
+set listchars=tab:▸\ ,eol:¬     "show invisibles
+
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
+set expandtab
+set textwidth=79
+set number                      "line numbers
+set autoindent
+set smartindent
+set smarttab
+filetype plugin indent on
